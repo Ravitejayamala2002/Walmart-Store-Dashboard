@@ -37,7 +37,8 @@ Walmart-PowerBI/
 
 ### 📈 Dashboard Preview
 
-*(Add a screenshot here if possible – use:)*
+![image](https://github.com/user-attachments/assets/379f74a0-abe8-4331-8651-8bb86a51ff1f)
+
 
 ```
 ![Dashboard Screenshot](dashboard-preview.png)
