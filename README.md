@@ -1,8 +1,7 @@
-Here are the highlights of the Walmart Store Sales Prediction Dataset EDA project based on the dashboard you provided. These points can be included in your **README file** to give a clear overview:
-
----
 
 ## 📊 Walmart Store Sales Prediction - EDA Highlights
+### Sample View
+![image](https://github.com/user-attachments/assets/07250794-788c-41d5-86e4-565dd476b589)
 
 ### 📁 Project Overview
 This project focuses on **Exploratory Data Analysis (EDA)** of the Walmart Store Sales dataset, aiming to understand key sales patterns across stores, time, and economic factors.
