@@ -1,83 +1,64 @@
-## 🛒 Walmart Power BI Dashboard Project
-
-### 📌 Overview
-This project is a Power BI dashboard that analyzes Walmart's sales performance. It provides insights into various KPIs including revenue, profit, sales trends, and regional performance. 
-The goal is to enable data-driven decision-making for stakeholders.
+Here are the highlights of the Walmart Store Sales Prediction Dataset EDA project based on the dashboard you provided. These points can be included in your **README file** to give a clear overview:
 
 ---
 
-### 📊 Features
+## 📊 Walmart Store Sales Prediction - EDA Highlights
 
-- Sales analysis by **region**, **category**, and **product**
-- Year-over-year **growth metrics**
-- Dynamic filtering with **slicers**
-- Visualizations for **top-performing products**, **profit trends**, and more
-- Interactive dashboard with responsive design
+### 📁 Project Overview
+This project focuses on **Exploratory Data Analysis (EDA)** of the Walmart Store Sales dataset, aiming to understand key sales patterns across stores, time, and economic factors.
 
 ---
 
-### 📁 Project Structure
-
-```
-Walmart-PowerBI/
-│
-├── Dataset/                # Contains the raw data (CSV/Excel)
-├── Walmart_Dashboard.pbix  # Power BI dashboard file
-└── README.md               # Project description file
-```
+### 🧩 Key Metrics
+- **🧮 Total Sales:** 6.74 billion
+- **📅 Avg Weekly Sales:** 1.05 million
+- **🗓️ Avg Monthly Sales:** 204.16 million
+- **🏬 Store Count:** 45
+- **🌡️ Avg Temperature:** 60.66°F
+- **⛽ Avg Fuel Price:** $3.36
 
 ---
 
-### 🧾 Dataset
+### 🔍 Insights
 
-- **Source**: [Specify source if public – e.g., Kaggle, mock data, etc.]
-- **Columns**: Date, Region, Product Category, Sales, Profit, Quantity, etc.
+- **Holiday Impact:** 
+  - 7.5% of sales occurred during holiday weeks.
+  - Sales during non-holiday weeks significantly outperform holiday weeks (6.23bn vs 0.51bn).
 
----
+- **Sales Over Time:**
+  - Noticeable peaks during holidays like Thanksgiving and Christmas.
+  - Trend spikes observed in Q4 each year.
 
-### 📈 Dashboard Preview
+- **Store-wise Sales:**
+  - Certain stores consistently outperform others.
+  - Sales are not evenly distributed across all 45 stores.
 
-![image](https://github.com/user-attachments/assets/379f74a0-abe8-4331-8651-8bb86a51ff1f)
+- **Fuel Price vs Sales:**
+  - No clear linear relationship.
+  - Sales are spread across a wide range of fuel prices, with a slight decline at higher prices.
 
+- **Unemployment vs Sales:**
+  - Higher sales occur in areas with mid-range unemployment (around 7-8%).
 
-```
-![Dashboard Screenshot](dashboard-preview.png)
-```
-
----
-
-### 🛠️ Tools Used
-
-- Power BI
-- Microsoft Excel (for data cleaning, if applicable)
-- DAX
-- Power Query
-
----
-
-### 🚀 Getting Started
-
-1. Clone the repo:
-   ```
-   git clone https://github.com/your-username/Walmart-PowerBI.git
-   ```
-
-2. Open the `.pbix` file in Power BI Desktop.
-
-3. Refresh the data (if needed) and explore the dashboard.
+- **Temperature vs Sales:**
+  - Increased sales are observed in mid-to-high temperature ranges, peaking around 80°F.
 
 ---
 
-### 🤝 Contributing
-
-Contributions are welcome! Please feel free to fork the repo and submit a pull request.
+### 🛠️ Filters and Controls
+- Date Filter: Interactive slider to filter results between Feb 2010 and Oct 2012.
+- Dropdowns for filtering by:
+  - Specific Dates
+  - Holiday Weeks
+  - Months
 
 ---
 
-### 📬 Contact
+### 📌 Tools & Technologies Used
+- **Power BI** for dashboard creation and interactive visualizations.
+- **Python/Pandas (optional for preprocessing)** if used in backend preparation.
+- Dataset sourced from Walmart sales records.
 
-If you have any questions or feedback, feel free to reach out:
+---
 
-- **Name**: [Raviteja Yamala]
-- **Email**: [Ravitejayamala660@gmail.com]
-- **LinkedIn**: [Your LinkedIn URL]
+Would you like me to generate a markdown-formatted version of this for your README file?
